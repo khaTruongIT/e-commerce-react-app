@@ -74,7 +74,7 @@ const mapStateToProps =createStructuredSelector({
 })
 
 const mapDispatchtoProps = dispatch => ({
-    setCurrentUser: user => dispatch(setCurrentUser())
+    setCurrentUser: user => dispatch(setCurrentUser(user))
 })
 
 export default connect(
